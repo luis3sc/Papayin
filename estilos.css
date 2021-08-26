@@ -113,8 +113,8 @@ button {
 }
 /* fondo */
 .liquid{
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   content: '';
   border-radius: 54% 46% 42% 58% / 60%  58% 42% 40%;
   background-color: #ff7402;
@@ -125,8 +125,8 @@ button {
 }
 
 .liquid2{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     content: '';
     border-radius: 54% 46% 42% 58% / 60%  58% 42% 40%;
     background-color: #ff7402;
