@@ -63,7 +63,7 @@ button {
   width: 100%;
   height: 100%;
   color: #fff;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 .btn-3:before,
 .btn-3:after {
@@ -110,6 +110,12 @@ button {
 }
 .btn-3 span:hover:after {
   width: 100%;
+}
+/* logo */
+.logosocial{
+  fill: #ff7402;
+  width: 20%;
+  float: left;
 }
 /* fondo */
 .liquid{
