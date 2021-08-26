@@ -38,23 +38,21 @@ button {
   float: left;
 }
 .custom-btn {
-  width: 40%;
-  height: 60%;
-  border: 4px solid rgb(255, 255, 255);
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  width: 43%;
+  height: 80%;
+  border: 2px solid rgb(216, 104, 0);
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
+ /* position: relative;
+  display: inline-block;*/
 }
 
 /* 3 */
-.btn-3 {
+/*.btn-3 {
   line-height: 39px;
-  padding: 0;
-}
+  padding: 0; 
+}*/
 .btn-3:hover{
   background: transparent;
   color: rgb(216, 104, 0);
@@ -71,7 +69,7 @@ button {
   content: "";
   left: 0;
   top: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(216, 104, 0);
   transition: all 0.3s ease;
 }
 .btn-3:before {
