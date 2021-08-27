@@ -51,11 +51,40 @@ button {
   width: 92%;
   height: 80%;
   border: none;
-  background: #5A28C2;
-/*background: linear-gradient(360deg, rgba(122,13,195,1) 0%, rgba(216,104,0,1) 100%);*/
+  font-weight: 600;
+ /* background: #5A28C2;
+background: linear-gradient(360deg, rgba(122,13,195,1) 0%, rgba(216,104,0,1) 100%);*/
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  background: linear-gradient(180deg, #440dc3, #d86800);
+  background-size: 400% 400%;
+
+  -webkit-animation: Animacionb 16s ease infinite;
+  -moz-animation: Animacionb 16s ease infinite;
+  -o-animation: Animacionb 16s ease infinite;
+  animation: Animacionb 16s ease infinite;
+}
+
+@-webkit-keyframes Animacionb {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-moz-keyframes Animacionb {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-o-keyframes Animacionb {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes Animacionb {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
 }
 /* 3 */
 /*.btn-3 {
