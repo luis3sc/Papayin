@@ -47,7 +47,16 @@ button {
  /* position: relative;
   display: inline-block;*/
 }
-
+.btn {
+  width: 92%;
+  height: 80%;
+  border: none;
+  background: #5A28C2;
+/*background: linear-gradient(360deg, rgba(122,13,195,1) 0%, rgba(216,104,0,1) 100%);*/
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 /* 3 */
 /*.btn-3 {
   line-height: 39px;
